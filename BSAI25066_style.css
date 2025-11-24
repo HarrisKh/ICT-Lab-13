@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4a6; 
+    color: #333;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 15px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.About {
+    background-image: url('Tech.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.products-preview {
+    background-image: url('BSAI25066_image_product_preview.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white; 
+    position: relative;
+}
+
+.product-content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 70px;
+
+}
+
+.product-button {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.products-main h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.light-bg {
+    background-color: #e9ecef; 
+}
+
+.product-image {
+    width: 200px; 
+    height: auto;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.product-details h3 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+.product-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-details ul li {
+    margin-bottom: 5px;
+}
+
+.contact-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-box, .social-media-box {
+    background-color: #a0a0a0; 
+    border: 2px solid #000000;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    transition: transform 0.3s;
+}
+
+.social-logo:hover {
+    transform: scale(1.1);
+}
